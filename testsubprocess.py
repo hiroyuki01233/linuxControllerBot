@@ -2,9 +2,10 @@ import subprocess
 
 # インストールした discord.py を読み込む
 import discord
+import const
 
 # 自分のBotのアクセストークンに置き換えてください
-TOKEN = 'Njk0NTg5MDA2NzAwMjE2NDMw.XoWzIQ.k5zoSkT88IPfaaYKKT1wt0qgjjk'
+TOKEN = const.TOKEN
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
